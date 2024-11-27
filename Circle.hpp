@@ -18,9 +18,9 @@ class Circle
 {
 private:
     RenderWindow displayCircle;
-
 public:
-    Circle(float side, float diameter, int dpi);
-    float mmToPixels(float diameter, int dpi);
+    Circle(float side, float diameter, float dpi);
+    float mmToPixels(float diameter, float dpi);
+    Color generateRandomColor();
 };
 #endif

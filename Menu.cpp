@@ -8,7 +8,7 @@
 using namespace sf; 
 using namespace std; 
 
-Menu::Menu(float side, float diameter, int dpi): side(side), diameter(diameter), dpi(dpi){
+Menu::Menu(float side, float diameter, float dpi): side(side), diameter(diameter), dpi(dpi){
     menuWindow.create(VideoMode(400, 550), "DISPLAY SHAPE"); 
     font.loadFromFile("Times New Normal Regular.ttf");
 

@@ -18,7 +18,7 @@ class Menu{
         float diameter = 0;
         int dpi = 0;
     public:
-        Menu(float side, float diameter, int dpi); //Constructor for the Intro. 
+        Menu(float side, float diameter, float dpi); //Constructor for the Intro. 
         Menu();
         void closeWindow();  //Getter for introWindow. 
 }; 

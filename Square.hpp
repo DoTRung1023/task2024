@@ -19,8 +19,9 @@ class Square
 private:
     RenderWindow displaySquare;
 public:
-    Square(float side, float diameter, int dpi);
-    float mmToPixels(float side, int dpi);
+    Square(float side, float diameter, float dpi);
+    float mmToPixels(float side, float dpi);
+    Color generateRandomColor();
 };
 
 

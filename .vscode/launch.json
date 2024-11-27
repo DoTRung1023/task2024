@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/dotrung67/Documents/Adelaide/Summer research 2024",
-      "program": "/Users/dotrung67/Documents/Adelaide/Summer research 2024/build/Debug/outDebug"
+      "cwd": "/Users/dotrung67/Documents/Adelaide/Summer research 2024/task2024",
+      "program": "/Users/dotrung67/Documents/Adelaide/Summer research 2024/task2024/build/Debug/outDebug"
     }
   ]
 }
